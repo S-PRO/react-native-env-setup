@@ -74,7 +74,10 @@ Error: Activity class {com.app/com.app.MainActivity} does not exist.`
 
 - `react-native-config` - basic link changes (MainApplication.java, settings.gradle, android/app/build.gradle);
 - `android/app/build.gradle` - all changes are marked;
+![alt text](readme.images/android-build-gradle-top.png)
+![alt text](readme.images/android-build-gradle-product-flavors.png)
 - `proguard-rules.pro` - all changes are marked;
+![alt text](readme.images/android-proguard-rules.png)
 - added `app/src/dev/res/values/strings.xml` for "dev" productFlavor - for bundle name `DEV-app`;
 - added `app/src/stage/res/values/strings.xml` for "stage" productFlavor - for bundle name `STAGING-app`;
 - added `app/src/production/res/values/strings.xml` for "production" productFlavor - for bundle name `app`;
@@ -99,6 +102,10 @@ Error: Activity class {com.app/com.app.MainActivity} does not exist.`
 - Added Library Search Paths fix for new configuration (Staging)
 
 ![alt text](readme.images/ios-library-search-paths.png)
+
+- Added Per-configuration build products path fix for new configuration (for "App Target" on tab "Build Settings") (Staging) 
+
+![alt text](readme.images/ios-per-configuration-build-products-path.png)
 
 - Updated Product Name (Added Prefix)
 
