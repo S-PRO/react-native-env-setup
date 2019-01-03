@@ -126,3 +126,12 @@ Error: Activity class {com.app/com.app.MainActivity} does not exist.`
 1. "production" - ".env.production"
 
 ![alt text](readme.images/ios-preaction-script.png)
+
+- Set up Build Configuration script for ALL schemes (Run, Archive):
+
+1. "dev" - "Debug"
+1. "stage" - "Staging"
+1. "production" - "Release"
+
+![alt text](readme.images/ios-scheme-run-staging.png)
+![alt text](readme.images/ios-scheme-archive-staging.png)
